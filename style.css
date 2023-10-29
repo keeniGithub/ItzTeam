@@ -1,0 +1,191 @@
+@font-face {
+    font-family: MultiPro;
+    src: url(font/MultiroundPro.otf);
+}
+
+*{
+    font-family: MultiPro;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+body{
+    background-color:#0B031B;
+}
+
+.laptop{
+    top: 100px;
+    width: 550px;
+    height: 500px;
+}
+
+
+.add-text{
+    margin-left: 50px;
+}
+
+.button-order{
+    font-family: MultiPro;
+    border: none;
+    width: 165px;
+    margin-top: 20px;
+    margin-left: 50px;
+    background-color: #6200ae;
+}
+
+.button-hover:hover{
+    background-color: #4c0087;
+}
+
+
+.paket{
+    width: 270px;
+    height: 270px;
+}
+
+.info{
+    border-radius: 30px;
+    margin-top: 200px;
+}
+
+.button-tarif{
+    border: none;
+    width: 165px;
+    background-color: #6200ae;
+}
+
+.hr{
+    margin-top: 30px;
+    border-radius: 50px;
+    max-width: 1200px;
+    height: 2px;
+    background-color: #6200ae;
+}
+
+.icon{
+    width: 58px;
+    height: 58px;
+    border-radius: 100px;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: rgb(163, 163, 163);
+}
+
+button:active{
+    background: #6200ae;
+}
+
+.python{
+    margin-top: 50px;
+}
+
+.butt{
+    margin-top: 20px;
+    font-family: MultiPro;
+    background-color: #6200ae;
+    border: none;
+    display: none;
+}
+
+.butt:hover{
+    background-color: #4c0087;
+}
+
+.link-card{
+    max-width: 320px; 
+    background: none; 
+    border: 2px solid white; 
+    color: white; 
+    margin: 50px; 
+    border-radius: 20px;
+}
+
+.icon{
+    width: 60px; 
+    border-radius: 20px; 
+    margin-bottom: 10px;
+}
+
+.view-info{
+    display: none;
+    color: white;
+}
+
+.kenyka{
+    width: 420px;
+    height: 600px;
+    margin-top: 100px;
+}
+
+.itz{
+    margin-top: 100px;
+    margin-left: 20px;
+    color: yellow;
+    font-size: 100px;
+    text-decoration: none;
+}
+
+@media screen and (width < 1080px) {
+    .laptop{
+        display: none;
+    }
+}
+
+@media screen and (width < 910px) {
+    .tarif{
+        display: none;
+    }
+    .butt{
+        display: block;
+    }
+}
+
+@media screen and (width < 530px) {
+    .itz{
+        font-size: 50px;
+    }
+}
+
+@media screen and (width < 865px) {
+    .go{
+        width: 100px;
+        height: 30px;
+        font-size: 13px;
+    }
+
+    .text{
+        font-size: 16px;
+    }
+}
+
+@media screen and (width < 300px){
+    .view-info{
+        display: block;
+    }
+
+    .link-card{
+        display: none;
+    }
+
+    nav, div, img, h1, h2, h3, p, button, .button-order, .button-tarif, .hr, .butt, .card{
+        display: none;
+    }
+
+    .hr{
+        height: 0;
+    }
+
+    
+}
+
+@media screen and (width < 600px){
+    .kenyka{
+        display: none;
+    }
+}
